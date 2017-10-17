@@ -19,10 +19,10 @@ public class ParameterTestServlet extends HttpServlet {
         String docType = "<!doctype html>\n";
 
         out.println(docType +
-                "<html>\n"+
+                "<html>\n" +
                 "<head><title>" + title +"</title><head>\n" +
                 "<body bgcolor = \"#f0f0f0\">\n"+
-                "<h1 align = \"center\">"+ title +"</h1\n>"+
+                "<h1 align = \"center\">"+ title +"</h1\n>" +
                 "<ul>\n"+
                 "<li><b>First Name</b>:"
                 +request.getParameter("first_name")+"\n"+
